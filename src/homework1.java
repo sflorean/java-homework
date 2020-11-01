@@ -1,7 +1,4 @@
-package com.company;
-
-public class Main {
-
+public class homework1 {
     public static void main(String[] args) {
         //5
         boolean z = false;
@@ -29,21 +26,21 @@ public class Main {
         int a = 3;
         int b = 6;
         if (b > a) {
-            System.out.println(b +"is larger than"+ a);
-        } else if (a > b ){
-            System.out.println(a + "is larger than"+ b);
+            System.out.println(b + "is larger than" + a);
+        } else if (a > b) {
+            System.out.println(a + "is larger than" + b);
         } else {
-            System.out.println(a +"is equal to"+ b);
+            System.out.println(a + "is equal to" + b);
         }
 
 
         //8
-        int [] n = new int [10];
-        for (int i=0; i<n.length; i++) {
-            n[i] = (int)(Math.floor(Math.random()*100 + 1));
+        int[] n = new int[10];
+        for (int i = 0; i < n.length; i++) {
+            n[i] = (int) (Math.floor(Math.random() * 100 + 1));
             if (n[i] % 2 == 0)
                 System.out.println("Even numbers are " + n[i]);
         }
-
     }
+
 }
